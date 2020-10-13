@@ -43,7 +43,6 @@ function renderTableItems(){
     }
 }
 
-
 entryDiv.appendChild(header);
 entryDiv.appendChild(divider);
 entryDiv.appendChild(peopleTable);
