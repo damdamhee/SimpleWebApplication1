@@ -1,3 +1,7 @@
+//import css
+import css from '../style/table.css';
+
+//import modules
 import useEntry from "./useEntry.js";
 import useHeader from "./useHeader.js";
 import useDivider from "./useDivider.js";

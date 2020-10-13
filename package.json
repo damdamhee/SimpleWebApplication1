@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/damdamhee/SimpleWebApplicationV1#readme",
   "devDependencies": {
-    "http-server": "^0.12.3"
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "http-server": "^0.12.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
   }
 }
