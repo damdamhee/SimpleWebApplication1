@@ -43,7 +43,25 @@ function renderTableItems(){
     }
 }
 
+const addPersonBtn = document.createElement('button');
+addPersonBtn.innerText = "ADD"
+addPersonBtn.setAttribute('id', 'addUserBtn');
+addPersonBtn.style.width="120px";
+addPersonBtn.style.height="40px";
+addPersonBtn.style.color="white";
+addPersonBtn.style.backgroundColor="#55ACED";
+addPersonBtn.style.border="none";
+addPersonBtn.padding="15px 30px";
+addPersonBtn.fontSize="20px";
+addPersonBtn.cursor="pointer";
+addPersonBtn.addEventListener('click', function(){
+    let newPerson = {name:"", phno:"", addr:""}
+    listOfPeople.push(newPerson);
+    addTableItemRow(newPerson);
+})
+
 entryDiv.appendChild(header);
+entryDiv.appendChild(addPersonBtn);
 entryDiv.appendChild(divider);
 entryDiv.appendChild(peopleTable);
 
