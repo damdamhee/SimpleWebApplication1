@@ -5,3 +5,5 @@ var listOfPeople = [
                      {name:'JHJ', phno:'010-0987-6543', addr:'suwon'}
                     ];
 
+//doms
+const entryDiv = document.getElementById('main');
