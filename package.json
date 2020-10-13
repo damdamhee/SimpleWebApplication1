@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/damdamhee/SimpleWebApplicationV1/issues"
   },
-  "homepage": "https://github.com/damdamhee/SimpleWebApplicationV1#readme"
+  "homepage": "https://github.com/damdamhee/SimpleWebApplicationV1#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
 }
